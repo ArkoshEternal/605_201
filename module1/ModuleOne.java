@@ -1,10 +1,8 @@
-
 /** 
  * Assignment One
  * 
- * This program prints to the standard output an ascii-art of the word java, 
- * whose letters are comprised of the letters of the word. e.g. the j will 
- * be made of ascii js: 
+ * This program prints to the standard output an ascii-art of
+ * the word java, as shown below: 
  *     
  *         J    A    V     V    A   
  *         J   A A    V   V    A A  
