@@ -1,6 +1,7 @@
 # Module One - Assignment Submission
 
-## The Assignment 
+## The Assignment
+
 The assignment for Module One was very limited in its request. It provided a picture of the 
 word JAVA spelled out in ASCII art, and asks the user to write a program which will display
 the pictured output. 
