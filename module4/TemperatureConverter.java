@@ -15,8 +15,7 @@ public class TemperatureConversion {
         Scanner input = new Scanner(System.in); // Create a Scanner to obtain user input
 
         while (userChoice != END_PROGRAM) {
-            System.out.print("Enter 1 to convert F->C, 2 to convert C->F, 3 to quit: ");
-            userChoice = input.nextInt(); // Read user input
+            userChoice = getUserChoice(input);
             switch (userChoice) {
                 case CONVERT_TO_CELSIUS:
                     fahrenheitToCelsius(input);
@@ -42,12 +41,17 @@ public class TemperatureConversion {
         float tempC = input.nextFloat();
         float tempF = 9F / 5F * tempC + 32F;
         System.out.println(tempC + " degrees Celsius is " + tempF + " degrees Fahrenheit");
-    }
+    } // end celsiusToFahrenheit
 
     public static void fahrenheitToCelsius(Scanner input) { 
         System.out.print("Enter a Fahrenheit temperature: ");
         float tempF = input.nextFloat();
         float tempC = 5F / 9F * (tempF - 32F);
         System.out.println(tempF + " degrees Fahrenheit is " + tempC + " degrees Celsius");
-    }
+    } // end fahrenheitToCelsius
+
+    public static int getUserChoice(Scanner input) {
+        System.out.print("Enter 1 to convert F->C, 2 to convert C->F, 3 to quit: ");
+        return input.nextInt();
+    } // end getUserChoice
 } // end class TemperatureConversion
