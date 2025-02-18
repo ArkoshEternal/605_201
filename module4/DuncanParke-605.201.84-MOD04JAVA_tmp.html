@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DuncanParke-605.201.84-MOD04JAVA.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="module-four---assignment-submission">Module Four - Assignment Submission</h1>
+<h2 id="the-assignment">The Assignment</h2>
+<ol>
+<li>Write a program that prompts the user to enter a month (1-12) and a
+year (e.g., 2012), and then displays a calendar for that month and
+year as illustrated below:</li>
+</ol>
+<p><img src="file:///home/arkosh/dev/605_201/module4/calendar.png" alt="calendar"></p>
+<ol start="2">
+<li>Write a program that prompts the user to specify a year (e.g.,
+2012) and then displays a calendar for each month in that year.
+You must reuse the methods from part one</li>
+</ol>
+<h2 id="design">Design</h2>
+<pre><code>When approaching the design of the first problem, it is important to notice that the second problem is simply a caller of the functional output of the first program, for each month January - December of that given year. Thus, we need to make the main of the initial program be a caller of some function which takes a month and a year, and prints the calendar out. 
+
+From the assignment, we know that we have to use the following methods in our implementation: 
+
+void printMonthCalendar(int month, int year)
+    Displays a calendar like the onevabove for a specified month and year.
+
+void printMonthHeader(int month, int year)
+    Displays the header information (month, year, line separator, 3-character day names) for a calendar.
+
+void printMonthBody(int month, int year)
+    Displays the days in the calendar associated with the corresponding days of the week.
+
+String getMonthName(int month) 
+    Returns the name of the month for a specified month number (e.g., returns March for m=3).
+
+int getStartDay(int month, int year) 
+Returns the day of week number (1=Monday,..., 7= Sunday) for the specified month and year.
+
+int getNumDaysInMonth(int month, int year)
+    Returns the number of days in specified month and year. Leap years are accounted for.
+
+boolean isLeapYear(int year) Returns true if the specified year is a leap year, and returns false otherwise
+
+With this in mind, we'll have to design a program which: 
+1. Get user input 
+2. Call printMonthCalendar 
+3. Call printMonthHeader 
+    call getMonthName
+4. Call printMonthBody
+    call getStartDay
+    call getNumDaysInMonth
+        call isLeapYear
+
+For the second program, we'll just just call in a for loop to get all calendar dates. 
+
+The getMonthName method can be implemented as a simple lookup table.
+
+The isLeapYear method can be implemented using the gregorian calendar formula of divisible by four, unless its divisible by 100, then it must also be divisible by 400. 
+
+The printMonthHeader can be implemnted using a series of print statements, with a method to determine how many spaces must be prepended to center the header file
+
+The printMonthCalendar method can be implemented using a while loop which breaks when the number of days &gt; the number of days in a month (also implemented as a LUT), and then tabs a newline after we run out of columns in a row. 
+</code></pre>
+<h2 id="implementation">Implementation</h2>
+<h3 id="print-month">Print Month</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">package</span> mod4;
+<span class="hljs-comment">/* PrintMonth 
+ * 
+ * Program which takes in a month and year and prints out the calendar for that month 
+ * 
+ * @author Duncan Parke
+ */</span>
+
+<span class="hljs-keyword">import</span> java.util.Scanner;
+
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PrintMonth</span> </span>{
+    <span class="hljs-comment">// Print the calendar for a given month</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Scanner input = <span class="hljs-keyword">new</span> Scanner(System.in); 
+        System.out.print(<span class="hljs-string">"Please enter the month you wish to see the calendar of (1-12): "</span>); 
+        <span class="hljs-keyword">int</span> month = input.nextInt(); 
+        System.out.print(<span class="hljs-string">"Please enter the year you want to see the calendar for (YYYY): "</span>); 
+        <span class="hljs-keyword">int</span> year = input.nextInt(); 
+        printMonthCalendar(month, year);
+        input.close(); 
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printMonthCalendar</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> year)</span> </span>{ 
+        printMonthHeader(month, year);
+        printMonthBody(month, year);
+    }
+    
+    <span class="hljs-comment">/* printMonthHeader
+     * 
+     * The printMonthHeader method prints the header of the calendar for a given month
+     * and year. It does so in a format perscribed by the module four assignment 
+     * of the 605.201 course. 
+     * 
+     * Pre-Conditions: The month value, m, is 1-12 The day value, d, is 1-31, or
+     *      1-28, 1-29 for February The year value, y, is the full year (e.g., 2012)
+     * 
+     * @param month
+     * @param year
+     * 
+     */</span>
+    <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printMonthHeader</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> year)</span> </span>{ 
+        <span class="hljs-comment">// Assumes 29 total characters per row</span>
+        <span class="hljs-comment">// Counted manually from the assignment sheet</span>
+        String headerString = getMonthName(month) + <span class="hljs-string">" "</span> + year;
+        <span class="hljs-comment">// Pad with spaces in order to center the header</span>
+        <span class="hljs-keyword">int</span> padding = (<span class="hljs-number">29</span> - headerString.length())/<span class="hljs-number">2</span>; 
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; padding; i++) { 
+            System.out.print(<span class="hljs-string">" "</span>); 
+        }
+        System.out.print(headerString);
+        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; padding; i++) { 
+            System.out.print(<span class="hljs-string">" "</span>); 
+        }
+        System.out.println();
+        System.out.println(<span class="hljs-string">"-----------------------------"</span>);
+        System.out.println(<span class="hljs-string">" Sun Mon Tue Wed Thu Fri Sat "</span>); 
+    }
+
+    <span class="hljs-comment">/* printMonthBody
+     * 
+     * The printMonthBody method prints the body of the calendar for a given month
+     * and year. It prints the days of the month in a grid format, with the first
+     * day of the month starting in the correct column.
+     * 
+     * Pre-Conditions: The month value, m, is 1-12 The day value, d, is 1-31, or
+     *      1-28, 1-29 for February The year value, y, is the full year (e.g., 2012)
+     * 
+     * @param month
+     * @param year
+     * 
+     */</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">printMonthBody</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> year)</span> </span>{ 
+        <span class="hljs-comment">// Get the start day of the week, and the number</span>
+        <span class="hljs-comment">// of days in the month </span>
+        <span class="hljs-keyword">int</span> numDays = getNumDaysInMonth(month, year); 
+        <span class="hljs-keyword">int</span> startDay = getStartDay(month, year); 
+        <span class="hljs-keyword">int</span> realStartDay = <span class="hljs-number">0</span>; 
+        <span class="hljs-keyword">int</span> colCount = <span class="hljs-number">0</span>; 
+        <span class="hljs-keyword">int</span> dayCounter = <span class="hljs-number">1</span>; <span class="hljs-comment">// Start on day 1</span>
+        <span class="hljs-comment">// 0 index using realStartDay</span>
+        <span class="hljs-keyword">if</span>(startDay != <span class="hljs-number">7</span>) realStartDay = startDay; 
+        <span class="hljs-comment">// Prints, always assuming a space to start</span>
+        <span class="hljs-comment">// Single digit days are space_space_num</span>
+        <span class="hljs-comment">// double digit days are "space_num_num"</span>
+        <span class="hljs-comment">// System.out.print(" "); // space to start </span>
+        <span class="hljs-comment">// Print spaces until the start day</span>
+        <span class="hljs-comment">// Initialze with one space offset </span>
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; realStartDay; i++) { 
+            System.out.print(<span class="hljs-string">"    "</span>);
+        }
+        colCount = realStartDay; 
+        <span class="hljs-keyword">while</span>(dayCounter &lt; numDays + <span class="hljs-number">1</span>) { 
+            <span class="hljs-keyword">if</span>(dayCounter &lt; <span class="hljs-number">10</span>) { 
+                System.out.print(<span class="hljs-string">"   "</span> + dayCounter); 
+            }
+            <span class="hljs-keyword">else</span> { 
+                System.out.print(<span class="hljs-string">"  "</span> + dayCounter); 
+            }
+            dayCounter += <span class="hljs-number">1</span>; 
+            colCount += <span class="hljs-number">1</span>; 
+            <span class="hljs-keyword">if</span> ( colCount == <span class="hljs-number">7</span> ) { 
+                colCount = <span class="hljs-number">0</span>; 
+                System.out.println(<span class="hljs-string">" "</span>); <span class="hljs-comment">// zero pad</span>
+            }
+        }
+        System.out.println(); <span class="hljs-comment">// newline for preference</span>
+    } 
+
+    <span class="hljs-comment">/* getMonthName
+     * Get month name implements a look up table that returns the string value of a 
+     * month given the integer value of the month
+     * 
+     * Pre-Conditions: The month value, m, is 1-12
+     * 
+     * Post-Conditions: A string value is returned, representing the name of the month
+     * 
+     * @param month
+     * @return monthName (String)
+     */</span>
+
+    <span class="hljs-function"><span class="hljs-keyword">static</span> String <span class="hljs-title">getMonthName</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month)</span> </span>{ 
+        <span class="hljs-keyword">switch</span>(month) { 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">1</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"January"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">2</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"February"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">3</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"March"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">4</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"April"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">5</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"May"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">6</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"June"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">7</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"July"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">8</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"August"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">9</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"September"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">10</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"October"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">11</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"November"</span>; 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">12</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"December"</span>; 
+            <span class="hljs-keyword">default</span>: <span class="hljs-keyword">return</span> <span class="hljs-string">"Invalid month"</span>; 
+        }
+    }
+
+    <span class="hljs-comment">/** getStartDay
+    * The method getStartDay() implements Zeller's Algorithm for determining the
+    * day of the week the first day of a month is. The method adjusts Zeller's
+    * numbering scheme for day of week ( 0=Saturday, ..., 6=Friday ) to conform
+    * to day of week number that corresponds to ISO conventions (i.e.,
+    * 1=Monday, ..., 7=Sunday)
+    *
+    * Pre-Conditions: The month value, m, is 1-12 The day value, d, is 1-31, or
+    * 1-28, 1-29 for February The year value, y, is the full year (e.g., 2012)
+    *
+    * Post-Conditions: A value of 1-7 is returned, representing the first day of
+    * the month 1 = Monday, ..., 7 = Sunday
+    *
+    * Reference: https://codereview.stackexchange.com/questions/67722/its-friday-zellers-congruence-revisited
+    *
+    * <span class="hljs-doctag">@param</span> month
+    * <span class="hljs-doctag">@param</span> year
+    * <span class="hljs-doctag">@return</span> dayNum (1 = Mon, ... , 7 = Sun )
+    *
+    * precondition: month, year, and day are integer types
+    *
+    * <span class="hljs-doctag">@author</span>: rolfl, modified by Josh Lafond
+    */</span>   
+    <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getStartDay</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> year)</span> </span>{
+        <span class="hljs-comment">// Adjust month number &amp; year to fit Zeller's numbering system</span>
+        <span class="hljs-keyword">if</span> (month &lt; <span class="hljs-number">3</span>) {
+           month += <span class="hljs-number">12</span>;
+           year -= <span class="hljs-number">1</span>;
+        }
+  
+        <span class="hljs-keyword">int</span> centuryYear = year % <span class="hljs-number">100</span>;    <span class="hljs-comment">// Calculate year within century</span>
+        <span class="hljs-keyword">int</span> centuryTerm = year / <span class="hljs-number">100</span>;    <span class="hljs-comment">// Calculate century term</span>
+        <span class="hljs-keyword">int</span> firstDayInMonth = <span class="hljs-number">0</span>;         <span class="hljs-comment">// Day number of first day in month 'm'</span>
+  
+        firstDayInMonth = (<span class="hljs-number">1</span> + <span class="hljs-comment">// to shift index 0 to the 1-7 return range</span>
+           (<span class="hljs-number">13</span> * (month + <span class="hljs-number">1</span>) / <span class="hljs-number">5</span>)
+           + centuryYear +
+           (centuryYear / <span class="hljs-number">4</span>) +
+           (centuryTerm / <span class="hljs-number">4</span>) +
+           (<span class="hljs-number">5</span> * centuryTerm)) % <span class="hljs-number">7</span>;
+  
+        <span class="hljs-comment">// Convert Zeller's value to ISO value (1 = Mon, ... , 7 = Sun )</span>
+        <span class="hljs-keyword">int</span> dayNum = ((firstDayInMonth + <span class="hljs-number">5</span>) % <span class="hljs-number">7</span>) + <span class="hljs-number">1</span>;
+  
+        <span class="hljs-keyword">return</span> dayNum;
+     } <span class="hljs-comment">// end getStartDay()</span>
+
+    <span class="hljs-comment">/** getNumDaysInMonth
+    * The method getStartDay implements a lookup table which returns the number of
+    * days in a specific month. The method adjusts for leap years.
+    *
+    * Pre-Conditions: The month value, m, is 1-12 The day value, d, is 1-31, or
+    * 1-28, 1-29 for February The year value, y, is the full year (e.g., 2012)
+    *
+    * Post-Conditions: An integer value is returned, representing the number of
+    * days in a month
+    *
+    *
+    * <span class="hljs-doctag">@param</span> month
+    * <span class="hljs-doctag">@param</span> year
+    * <span class="hljs-doctag">@return</span> numDays(28, 29, 30, or 31)
+    *
+    * precondition: month and year are integer types
+    *
+    * <span class="hljs-doctag">@author</span>: dparke
+    */</span>   
+    <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> <span class="hljs-title">getNumDaysInMonth</span><span class="hljs-params">(<span class="hljs-keyword">int</span> month, <span class="hljs-keyword">int</span> year)</span> </span>{ 
+        <span class="hljs-keyword">switch</span>(month) { 
+            <span class="hljs-comment">// Jan, Mar, May, Jul, Aug, Oct, Dec == 31</span>
+            <span class="hljs-keyword">case</span> <span class="hljs-number">1</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">3</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">5</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">7</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">8</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">10</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">12</span>: <span class="hljs-keyword">return</span> <span class="hljs-number">31</span>; 
+            <span class="hljs-comment">// Apr, Jun, Sep, Nov == 30 </span>
+            <span class="hljs-keyword">case</span> <span class="hljs-number">4</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">6</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">9</span>: 
+            <span class="hljs-keyword">case</span> <span class="hljs-number">11</span>: <span class="hljs-keyword">return</span> <span class="hljs-number">30</span>; 
+            <span class="hljs-comment">// If Feb, return 28 if not a leap year</span>
+            <span class="hljs-comment">// else, return 29</span>
+            <span class="hljs-keyword">case</span> <span class="hljs-number">2</span>: <span class="hljs-keyword">return</span> isLeapYear(year) ? <span class="hljs-number">29</span> : <span class="hljs-number">28</span>; 
+            <span class="hljs-comment">// error case</span>
+            <span class="hljs-keyword">default</span>: <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>; 
+        }
+
+    }
+    <span class="hljs-comment">/** isLeapYear
+    * The method isLeapYear determines if a given year of the Gregorian calendar is a
+    * leap year or not
+    *
+    * Pre-Conditions: The year is of integer type
+    *
+    * Post-Conditions: A value of true or false is returned, indicating if the year is a leap year
+    *
+    * Reference: https://codereview.stackexchange.com/questions/67722/its-friday-zellers-congruence-revisited
+    *
+    * <span class="hljs-doctag">@param</span> year
+    * <span class="hljs-doctag">@return</span> boolean (true if leap year, false if not)
+
+    *
+    * <span class="hljs-doctag">@author</span>: dparke
+    */</span>   
+    <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">isLeapYear</span><span class="hljs-params">(<span class="hljs-keyword">int</span> year)</span> </span>{ 
+        <span class="hljs-keyword">if</span> ((year % <span class="hljs-number">4</span> == <span class="hljs-number">0</span> &amp;&amp; year % <span class="hljs-number">100</span> != <span class="hljs-number">0</span>) || (year % <span class="hljs-number">400</span> == <span class="hljs-number">0</span>)) { 
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>; 
+        } <span class="hljs-keyword">else</span> { 
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>; 
+        }
+    }
+
+}
+</div></code></pre>
+<h3 id="print-year">Print Year</h3>
+<pre class="hljs"><code><div><span class="hljs-keyword">package</span> mod4;
+<span class="hljs-comment">/* PrintYear
+* 
+* Program which takes in a year and prints out the calendar for that year
+* 
+* @author Duncan Parke
+*/</span>
+<span class="hljs-keyword">import</span> java.util.Scanner;
+
+<span class="hljs-comment">// Class to print the calendar for a given year </span>
+<span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">PrintYear</span> </span>{ 
+    <span class="hljs-comment">// Function entry point</span>
+    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span> </span>{
+        Scanner input = <span class="hljs-keyword">new</span> Scanner(System.in); 
+        System.out.print(<span class="hljs-string">"Please enter the year you want to see the calendar for (YYYY): "</span>);
+        <span class="hljs-keyword">int</span> year = input.nextInt(); 
+        <span class="hljs-keyword">for</span>(<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt;= <span class="hljs-number">12</span>; i++) { 
+            PrintMonth.printMonthCalendar(i, year); 
+        }
+        input.close(); 
+    }
+}
+</div></code></pre>
+<h2 id="implementation">Implementation</h2>
+<p>See attached logfiles for implementation details</p>
+
+</body>
+</html>
