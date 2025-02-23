@@ -27,6 +27,7 @@ public class GuessThatNumber {
         int number = 0;
         int guess_num = 0;
         int keep_playing = 1; 
+        int guess = 0; 
         Scanner input = new Scanner(System.in);
         // Start the game 
         System.out.println("Welcome to Guess That Number!");
@@ -45,10 +46,10 @@ public class GuessThatNumber {
             // Generate the number 
             number = (int) (Math.random() * range) + 1;
             System.out.println("I have generated a number between 1 and " + range + ". What is your guess?");
-
+            
             // Start the guessing loop
             while(guess_num < max_guesses) {
-                int guess = input.nextInt();
+                guess = input.nextInt();
                 guess_num++;
                 if (guess == number) {
                     System.out.println("correct");
@@ -59,7 +60,9 @@ public class GuessThatNumber {
                     System.out.println("too high");
                 } 
             } // end while (guess_num < max_guesses)
-
+            if(guess_num == max_guesses && guess != number) {
+                System.out.println("You have run out of guesses. The number was " + number);
+            }
             // Ask the user if they want to play again
             System.out.println("Would you like to play again? (yes/no)");
             String play_again = input.next();

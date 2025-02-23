@@ -1,0 +1,50 @@
+Script started on 2025-02-09 21:56:50-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="248" LINES="7"]
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module3/assignment3[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module3/assignment3[00m$ java Gu[KuessThatNumber.java
+[?2004lWelcome to Guess That Number!
+The game where for some reason you you give me a range of numbers and a number of guesses, and I generate a number for you to guess.
+If you guess the number, you win! If you don't, you lose. It's that simple.
+Let's get started!
+
+How many guesses would you like to have? Guesses: 
+2
+What is the maximum number you would like to guess? Maximum Number: 
+10
+I have generated a number between 1 and 10. What is your guess?
+4
+too low
+3
+too low
+You have run out of guesses. The number was 9
+Would you like to play again? (yes/no)
+yes
+How many guesses would you like to have? Guesses: 
+10  2
+What is the maximum number you would like to guess? Maximum Number: 
+10
+I have generated a number between 1 and 10. What is your guess?
+5
+too low
+8
+too low
+You have run out of guesses. The number was 9
+Would you like to play again? (yes/no)
+y4es   es  y  yes
+How many guesses would you like to have? Guesses: 
+20  10
+What is the maximum number you would like to guess? Maximum Number: 
+10
+I have generated a number between 1 and 10. What is your guess?
+4
+too low
+5
+too low
+6
+too low
+7
+correct
+Would you like to play again? (yes/no)
+no
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module3/assignment3[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module3/assignment3[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-09 21:57:34-05:00 [COMMAND_EXIT_CODE="0"]
