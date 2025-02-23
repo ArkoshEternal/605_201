@@ -1,0 +1,109 @@
+Script started on 2025-02-16 16:54:40-05:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="13"]
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$  cd /home/arkosh/dev/605_201 ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/arkosh/.vscode-server/data/User/workspaceStorage/c10569d5ef0ee75b2280be6f131d5434/redhat.java/jdt_ws/605_201_1aef2a31/bin mod4.PrintYear 
+[?2004lPlease enter the year you want to see the calendar for (YYYY): 2024
+        January 2024        
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+       1   2   3   4   5   6 
+   7   8   9  10  11  12  13 
+  14  15  16  17  18  19  20 
+  21  22  23  24  25  26  27 
+  28  29  30  31
+        February 2024        
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+                   1   2   3 
+   4   5   6   7   8   9  10 
+  11  12  13  14  15  16  17 
+  18  19  20  21  22  23  24 
+  25  26  27  28  29
+         March 2024         
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+                       1   2 
+   3   4   5   6   7   8   9 
+  10  11  12  13  14  15  16 
+  17  18  19  20  21  22  23 
+  24  25  26  27  28  29  30 
+  31
+         April 2024         
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+       1   2   3   4   5   6 
+   7   8   9  10  11  12  13 
+  14  15  16  17  18  19  20 
+  21  22  23  24  25  26  27 
+  28  29  30
+          May 2024          
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+               1   2   3   4 
+   5   6   7   8   9  10  11 
+  12  13  14  15  16  17  18 
+  19  20  21  22  23  24  25 
+  26  27  28  29  30  31
+          June 2024          
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+                           1 
+   2   3   4   5   6   7   8 
+   9  10  11  12  13  14  15 
+  16  17  18  19  20  21  22 
+  23  24  25  26  27  28  29 
+  30
+          July 2024          
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+       1   2   3   4   5   6 
+   7   8   9  10  11  12  13 
+  14  15  16  17  18  19  20 
+  21  22  23  24  25  26  27 
+  28  29  30  31
+         August 2024         
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+                   1   2   3 
+   4   5   6   7   8   9  10 
+  11  12  13  14  15  16  17 
+  18  19  20  21  22  23  24 
+  25  26  27  28  29  30  31 
+
+       September 2024       
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+   1   2   3   4   5   6   7 
+   8   9  10  11  12  13  14 
+  15  16  17  18  19  20  21 
+  22  23  24  25  26  27  28 
+  29  30
+        October 2024        
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+           1   2   3   4   5 
+   6   7   8   9  10  11  12 
+  13  14  15  16  17  18  19 
+  20  21  22  23  24  25  26 
+  27  28  29  30  31
+        November 2024        
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+                       1   2 
+   3   4   5   6   7   8   9 
+  10  11  12  13  14  15  16 
+  17  18  19  20  21  22  23 
+  24  25  26  27  28  29  30 
+
+        December 2024        
+-----------------------------
+ Sun Mon Tue Wed Thu Fri Sat 
+   1   2   3   4   5   6   7 
+   8   9  10  11  12  13  14 
+  15  16  17  18  19  20  21 
+  22  23  24  25  26  27  28 
+  29  30  31
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$ exit
+[?2004lexit
+
+Script done on 2025-02-16 16:54:54-05:00 [COMMAND_EXIT_CODE="0"]
