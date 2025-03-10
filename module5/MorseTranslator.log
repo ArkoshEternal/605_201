@@ -1,0 +1,15 @@
+Script started on 2025-02-27 19:11:00-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="263" LINES="15"]
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module5[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module5[00m$ exitjava MorseTranslator.javaexit[K[Kexitjava MorseTranslator.java
+[?2004lPlease enter 0 to translate English to Morse or 1 to translate Morse to English: 
+0
+Please enter the text to translate: Hello my dear friend
+.... . .-.. .-.. --- | -- -.-- | -.. . .- .-. | ..-. .-. .. . -. -.. 
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module5[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module5[00m$ java MorseTranslator.javaexit[Kjava MorseTranslator.javaexit[Kjava MorseTranslator.java[Kjava MorseTranslator.java
+[?2004lPlease enter 0 to translate English to Morse or 1 to translate Morse to English: 
+1
+Please enter the text to translate: .... . .-.. .-.. --- | -- -.-- | -.. . .- .-. | ..-. .-. .. . -. -..
+hello my dear friend
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module5[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module5[00m$ ei[Kxit
+[?2004lexit
+
+Script done on 2025-02-27 19:11:41-05:00 [COMMAND_EXIT_CODE="0"]

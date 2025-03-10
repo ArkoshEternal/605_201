@@ -14,7 +14,7 @@ public class MorseTranslator {
         String output = "";
         Scanner scanner = new Scanner(System.in);
         // Get user input
-        System.out.println("Please enter 0 to translate English to Morse or 1 to translate to English to Morse: ");
+        System.out.println("Please enter 0 to translate English to Morse or 1 to translate Morse to English: ");
         isMorse = scanner.nextInt() == 0;
         System.out.print("Please enter the text to translate: "); 
         input = scanner.nextLine();   // Consume newline from buffer
@@ -36,7 +36,6 @@ public class MorseTranslator {
         String output = "";
         for(int i = 0; i < input.length(); i++) {
             output += getMorseCode(input.charAt(i));
-            System.out.println(output);
             output += " ";
         }
         return output;  
@@ -55,83 +54,83 @@ public class MorseTranslator {
 
     static String getMorseCode(char c) {
         // Return the Morse code for a single character
-        switch (c) {
+        switch (Character.toLowerCase(c)) {
             case 'a':
-                return ".-";
+            return ".-";
             case 'b':
-                return "-...";
+            return "-...";
             case 'c':
-                return "-.-.";
+            return "-.-.";
             case 'd':
-                return "-..";
+            return "-..";
             case 'e':
-                return ".";
+            return ".";
             case 'f':
-                return "..-.";
+            return "..-.";
             case 'g':
-                return "--.";
+            return "--.";
             case 'h':
-                return "....";
+            return "....";
             case 'i':
-                return "..";
+            return "..";
             case 'j':
-                return ".---";
+            return ".---";
             case 'k':
-                return "-.-";
+            return "-.-";
             case 'l':
-                return ".-..";
+            return ".-..";
             case 'm':
-                return "--";
+            return "--";
             case 'n':
-                return "-.";
+            return "-.";
             case 'o':
-                return "---";
+            return "---";
             case 'p':
-                return ".--.";
+            return ".--.";
             case 'q':
-                return "--.-";
+            return "--.-";
             case 'r':
-                return ".-.";
+            return ".-.";
             case 's':
-                return "...";
+            return "...";
             case 't':
-                return "-";
+            return "-";
             case 'u':
-                return "..-";
+            return "..-";
             case 'v':
-                return "...-";
+            return "...-";
             case 'w':
-                return ".--";
+            return ".--";
             case 'x':
-                return "-..-";
+            return "-..-";
             case 'y':
-                return "-.--";
+            return "-.--";
             case 'z':
-                return "--..";
+            return "--..";
             case '0':
-                return "-----";
+            return "-----";
             case '1':
-                return ".----";
+            return ".----";
             case '2':
-                return "..---";
+            return "..---";
             case '3':
-                return "...--";
+            return "...--";
             case '4':
-                return "....-";
+            return "....-";
             case '5':
-                return ".....";
+            return ".....";
             case '6':
-                return "-....";
+            return "-....";
             case '7':
-                return "--...";
+            return "--...";
             case '8':
-                return "---..";
+            return "---..";
             case '9':
-                return "----.";
+            return "----.";
             case ' ':
-                return "|";
+            return "|";
             default:
-                return "";
+            return "";
         }
     } // end getMorseCode
 
