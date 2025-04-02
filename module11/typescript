@@ -1,0 +1,104 @@
+Script started on 2025-04-02 02:05:13-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="263" LINES="17"]
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module11[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module11[00m$ exitjava ContactList.javaPrintData.java test.csv 57[10PContactList.java
+[?2004lEnter the name of the file where contact list will be stored: contactlist
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 1
+Enter first name: Test
+Enter last name: Name
+Enter phone number: 12312312345 
+Enter email address: dfsjoifadsoji@gmail.com
+Contact added successfully.
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 1
+Enter first name: Mister
+Enter last name: Nu imbus
+Enter phone number: 8 91191191111
+Enter email address: police@! gmail.com
+Contact added successfully.
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 3
+
+Contact List:
+Test Name | 1231231234 | dfsjoifadsoji@gmail.com
+Mister Nimbus | 91191191111 | police@gmail.com
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 1
+Enter first name: Alhpa   pha
+Enter last name: Beta
+Enter phone number: 1234315223 
+Enter email address: nononoinoinionoi102@gmail.com
+Contact added successfully.
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 3
+
+Contact List:
+Alpha Beta | 123431522 | nononoinoinionoi102@gmail.com
+Test Name | 1231231234 | dfsjoifadsoji@gmail.com
+Mister Nimbus | 91191191111 | police@gmail.com
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 2
+Enter the last name of the contact to delete: Beta
+Contact deleted successfully.
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 4
+Goodbye!
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module11[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module11[00m$ java ContactList.java
+[?2004lEnter the name of the file where contact list will be stored: contactlist
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 3
+
+Contact List:
+Test Name | 1231231234 | dfsjoifadsoji@gmail.com
+Mister Nimbus | 91191191111 | police@gmail.com
+
+Choose an option:
+1. Add a contact
+2. Delete a contact
+3. Display all contacts
+4. Exit
+Enter your choice: 4
+Goodbye!
+[?2004h]0;arkosh@greyskull: ~/repos/601_201/module11[01;32markosh@greyskull[00m:[01;34m~/repos/601_201/module11[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-02 02:06:30-04:00 [COMMAND_EXIT_CODE="0"]

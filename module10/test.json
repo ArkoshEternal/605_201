@@ -1,0 +1,338 @@
+[
+  {
+    "state": 1,
+    "population": 4833722,
+    "childPopulation": 814377,
+    "childPovertyPopulation": 205023
+  },
+  {
+    "state": 2,
+    "population": 735132,
+    "childPopulation": 132740,
+    "childPovertyPopulation": 16118
+  },
+  {
+    "state": 3,
+    "population": 0,
+    "childPopulation": 0,
+    "childPovertyPopulation": 0
+  },
+  {
+    "state": 4,
+    "population": 8688149,
+    "childPopulation": 1182931,
+    "childPovertyPopulation": 288777
+  },
+  {
+    "state": 5,
+    "population": 2959373,
+    "childPopulation": 516950,
+    "childPovertyPopulation": 132920
+  },
+  {
+    "state": 6,
+    "population": 48909205,
+    "childPopulation": 6667268,
+    "childPovertyPopulation": 1468715
+  },
+  {
+    "state": 7,
+    "population": 0,
+    "childPopulation": 0,
+    "childPovertyPopulation": 0
+  },
+  {
+    "state": 8,
+    "population": 5268367,
+    "childPopulation": 902796,
+    "childPovertyPopulation": 139381
+  },
+  {
+    "state": 9,
+    "population": 3747676,
+    "childPopulation": 593629,
+    "childPovertyPopulation": 77895
+  },
+  {
+    "state": 10,
+    "population": 925749,
+    "childPopulation": 147239,
+    "childPovertyPopulation": 25169
+  },
+  {
+    "state": 11,
+    "population": 646449,
+    "childPopulation": 70507,
+    "childPovertyPopulation": 20544
+  },
+  {
+    "state": 12,
+    "population": 19552860,
+    "childPopulation": 2948361,
+    "childPovertyPopulation": 678022
+  },
+  {
+    "state": 13,
+    "population": 10010465,
+    "childPopulation": 1821201,
+    "childPovertyPopulation": 445608
+  },
+  {
+    "state": 14,
+    "population": 0,
+    "childPopulation": 0,
+    "childPovertyPopulation": 0
+  },
+  {
+    "state": 15,
+    "population": 1404054,
+    "childPopulation": 216496,
+    "childPovertyPopulation": 29375
+  },
+  {
+    "state": 16,
+    "population": 1612136,
+    "childPopulation": 314294,
+    "childPovertyPopulation": 56633
+  },
+  {
+    "state": 17,
+    "population": 17704060,
+    "childPopulation": 2224288,
+    "childPovertyPopulation": 427235
+  },
+  {
+    "state": 18,
+    "population": 6570099,
+    "childPopulation": 1165146,
+    "childPovertyPopulation": 226599
+  },
+  {
+    "state": 19,
+    "population": 3090416,
+    "childPopulation": 529306,
+    "childPovertyPopulation": 77634
+  },
+  {
+    "state": 20,
+    "population": 2893957,
+    "childPopulation": 523686,
+    "childPovertyPopulation": 84325
+  },
+  {
+    "state": 21,
+    "population": 4405846,
+    "childPopulation": 739127,
+    "childPovertyPopulation": 171418
+  },
+  {
+    "state": 22,
+    "population": 4625470,
+    "childPopulation": 804740,
+    "childPovertyPopulation": 212904
+  },
+  {
+    "state": 23,
+    "population": 1358717,
+    "childPopulation": 196262,
+    "childPovertyPopulation": 31174
+  },
+  {
+    "state": 24,
+    "population": 5928814,
+    "childPopulation": 977312,
+    "childPovertyPopulation": 120049
+  },
+  {
+    "state": 25,
+    "population": 7107877,
+    "childPopulation": 1028400,
+    "childPovertyPopulation": 153286
+  },
+  {
+    "state": 26,
+    "population": 9895622,
+    "childPopulation": 1672433,
+    "childPovertyPopulation": 351702
+  },
+  {
+    "state": 27,
+    "population": 5420550,
+    "childPopulation": 931542,
+    "childPovertyPopulation": 119437
+  },
+  {
+    "state": 28,
+    "population": 2991207,
+    "childPopulation": 539006,
+    "childPovertyPopulation": 170629
+  },
+  {
+    "state": 29,
+    "population": 6044171,
+    "childPopulation": 1020848,
+    "childPovertyPopulation": 203216
+  },
+  {
+    "state": 30,
+    "population": 1913094,
+    "childPopulation": 162709,
+    "childPovertyPopulation": 30655
+  },
+  {
+    "state": 31,
+    "population": 1868516,
+    "childPopulation": 334188,
+    "childPovertyPopulation": 49030
+  },
+  {
+    "state": 32,
+    "population": 2790136,
+    "childPopulation": 483411,
+    "childPovertyPopulation": 99599
+  },
+  {
+    "state": 33,
+    "population": 1472055,
+    "childPopulation": 205461,
+    "childPovertyPopulation": 19714
+  },
+  {
+    "state": 34,
+    "population": 10552547,
+    "childPopulation": 1488882,
+    "childPovertyPopulation": 222992
+  },
+  {
+    "state": 35,
+    "population": 2085287,
+    "childPopulation": 368816,
+    "childPovertyPopulation": 103790
+  },
+  {
+    "state": 36,
+    "population": 19901043,
+    "childPopulation": 3066336,
+    "childPovertyPopulation": 666553
+  },
+  {
+    "state": 37,
+    "population": 9848060,
+    "childPopulation": 1673310,
+    "childPovertyPopulation": 386419
+  },
+  {
+    "state": 38,
+    "population": 723393,
+    "childPopulation": 113921,
+    "childPovertyPopulation": 12685
+  },
+  {
+    "state": 39,
+    "population": 11570743,
+    "childPopulation": 1958998,
+    "childPovertyPopulation": 398688
+  },
+  {
+    "state": 40,
+    "population": 3851487,
+    "childPopulation": 682548,
+    "childPovertyPopulation": 144867
+  },
+  {
+    "state": 41,
+    "population": 3931430,
+    "childPopulation": 627584,
+    "childPovertyPopulation": 118023
+  },
+  {
+    "state": 42,
+    "population": 12773801,
+    "childPopulation": 1999741,
+    "childPovertyPopulation": 342181
+  },
+  {
+    "state": 43,
+    "population": 0,
+    "childPopulation": 0,
+    "childPovertyPopulation": 0
+  },
+  {
+    "state": 44,
+    "population": 1065907,
+    "childPopulation": 159355,
+    "childPovertyPopulation": 31368
+  },
+  {
+    "state": 45,
+    "population": 4790785,
+    "childPopulation": 787482,
+    "childPovertyPopulation": 194639
+  },
+  {
+    "state": 46,
+    "population": 844877,
+    "childPopulation": 148002,
+    "childPovertyPopulation": 24675
+  },
+  {
+    "state": 47,
+    "population": 6778703,
+    "childPopulation": 1091900,
+    "childPovertyPopulation": 260103
+  },
+  {
+    "state": 48,
+    "population": 26452422,
+    "childPopulation": 5101161,
+    "childPovertyPopulation": 1198322
+  },
+  {
+    "state": 49,
+    "population": 2900872,
+    "childPopulation": 642722,
+    "childPovertyPopulation": 85745
+  },
+  {
+    "state": 50,
+    "population": 940840,
+    "childPopulation": 92223,
+    "childPovertyPopulation": 11990
+  },
+  {
+    "state": 51,
+    "population": 8260405,
+    "childPopulation": 1352420,
+    "childPovertyPopulation": 190734
+  },
+  {
+    "state": 52,
+    "population": 0,
+    "childPopulation": 0,
+    "childPovertyPopulation": 0
+  },
+  {
+    "state": 53,
+    "population": 6971406,
+    "childPopulation": 1151175,
+    "childPovertyPopulation": 197126
+  },
+  {
+    "state": 54,
+    "population": 1854304,
+    "childPopulation": 279484,
+    "childPovertyPopulation": 64539
+  },
+  {
+    "state": 55,
+    "population": 5956920,
+    "childPopulation": 963445,
+    "childPovertyPopulation": 157356
+  },
+  {
+    "state": 56,
+    "population": 580850,
+    "childPopulation": 99034,
+    "childPovertyPopulation": 11684
+  }
+]
