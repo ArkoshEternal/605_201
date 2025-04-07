@@ -1,0 +1,57 @@
+Script started on 2025-04-06 23:25:20-04:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="138" LINES="13"]
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$  cd /home/arkosh/dev/605_201 ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/arkosh/.vscode-server/data/User/workspaceStorage/c10569d5ef0ee75b2280be6f131d5434/redhat.java/jdt_ws/605_201_1aef2a31/bin Project2.BlackJackGameSimulator 
+[?2004lWelcome to Blackjack!
+Enter your name: Player
+
+--- New Hand ---
+Deck reshuffled!
+Enter your bet amount (current balance: $100): 5
+Player's hand: 5 of Diamonds, J of Hearts
+Dealer shows: 3 of Diamonds
+Hit or Stay? (h/s): h
+Your hand: 5 of Diamonds, J of Hearts, 5 of Hearts
+Hit or Stay? (h/s): s
+Dealer's hidden card: 5 of Spades
+Dealer's hand: 3 of Diamonds, 5 of Spades, 8 of Clubs, A of Hearts
+You win!
+Play another hand? (y/n): y
+
+--- New Hand ---
+Enter your bet amount (current balance: $105): 100   120  
+Invalid bet. Please enter a valid amount: 1000
+Invalid bet. Please enter a valid amount: 105
+Player's hand: 3 of Hearts, 10 of Spades
+Dealer shows: 9 of Hearts
+Hit or Stay? (h/s): h
+Your hand: 3 of Hearts, 10 of Spades, 6 of Hearts
+Hit or Stay? (h/s): s
+Dealer's hidden card: 2 of Spades
+Dealer's hand: 9 of Hearts, 2 of Spades, K of Clubs
+Dealer wins.
+You are out of money! Game over.
+Thanks for playing, Player! You leave with $0
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$ ^C[?2004l[?2004h
+[?2004l
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$  cd /home/arkosh/dev/605_201 ; /usr/bin/env /usr/lib/jvm/java-21-openjdk-amd64/bin/java -XX:+ShowCodeDetailsInExceptionMessages -cp /home/arkosh/.vscode-server/data/User/workspaceStorage/c10569d5ef0ee75b2280be6f131d5434/redhat.java/jdt_ws/605_201_1aef2a31/bin Project2.BlackJackGameSimulator 
+[?2004lWelcome to Blackjack!
+Enter your name: DUnc    Player
+
+--- New Hand ---
+Deck reshuffled!
+Enter your bet amount (current balance: $100): 4 5
+Player's hand: 7 of Diamonds, 8 of Diamonds
+Dealer shows: 6 of Diamonds
+Hit or Stay? (h/s): h
+Your hand: 7 of Diamonds, 8 of Diamonds, 6 of Hearts
+Hit or Stay? (h/s): s
+Dealer's hidden card: 4 of Hearts
+Dealer's hand: 6 of Diamonds, 4 of Hearts, A of Spades
+Push! Bet returned.
+Play another hand? (y/n): n
+Thanks for playing, Player! You leave with $100
+[?2004h]0;arkosh@Mjolnir: ~/dev/605_201[01;32markosh@Mjolnir[00m:[01;34m~/dev/605_201[00m$ exit
+[?2004lexit
+
+Script done on 2025-04-06 23:27:55-04:00 [COMMAND_EXIT_CODE="0"]
